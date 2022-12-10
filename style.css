@@ -1,0 +1,170 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	font-family: 'PT Sans', sans-serif;
+	color: #030069;
+	background-color: rgba(103,160,229,1.0);
+}
+
+.container
+{
+	width: 100%;
+	padding-top: 30px;
+}
+
+.layer1
+{
+	width: 600px;
+	height: 530px;
+	margin: auto;
+	border-radius: 10px;
+	background-color: rgba(247,230,38,1.0);
+	box-shadow: 0px 0px 10px rgba(0,0,100,0.4);
+	transform: rotate(-4deg);
+}
+
+.layer2
+{
+	width: 600px;
+	height: 530px;
+	border-radius: 10px;
+	background-color: rgba(119,211,40,1);
+	transform: rotate(8deg);
+}
+
+.main_div_container
+{
+	width: 600px;
+	height: 530px;
+	background-color: rgba(255,255,255,1);
+	border-radius: 10px;
+	transform: rotate(-4deg);
+}
+
+.text_number
+{
+	width: 100%;
+	height: 100%;
+	font-size: 80px;
+	display: none;
+}
+.text_number>div
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.questions_container
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: none;
+}
+
+.heading
+{
+	width: 100%;
+	padding: 30px 0;
+	border-bottom: 2px solid grey;
+}
+
+.question_div
+{
+	width: 95%;
+	padding: 2% 2.5%;
+	font-size: 25px;
+}
+
+.options_container
+{
+	padding: 0 3%;
+}
+
+.option_input
+{
+	width: 60%;
+	height: 50px;
+	padding: 1%;
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+}
+
+.option_input>input
+{
+	width: 20px;
+	height: 20px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.btns
+{
+	width: 80%;
+	padding: 5% 10%;
+	margin-top: -100px;
+	display: none;
+}
+
+.btn_n
+{
+	font-family: 'PT Sans', sans-serif;
+	color: #030069;
+	width: 100px;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	border: 2px solid #fff;
+	background-color: #fff;
+	box-shadow: inset 0px 0px 1px rgba(0,0,100,0.2),0px 0px 10px rgba(0,0,100,0.2);
+	transition: all 0.1s;
+}
+
+.btn_n:nth-child(2)
+{
+	float: right;
+}
+
+.btn_n:active
+{
+	transform: scale(0.98);
+	box-shadow: inset 0px 0px 5px rgba(0,0,100,0.2),0px 0px 10px rgba(0,0,100,0.2);
+}
+
+.btns1
+{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#result_div
+{
+	width: 100%;
+	padding: 60px 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+#result_div
+{
+	width: 100%;
+	text-align: center;
+}
